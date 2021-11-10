@@ -11,9 +11,12 @@ public class Temperature {
          *  - a celsius to fahrenheit conversion
          * 2. Once there, you will ask them what temperature they would like to convert
          * 3. You will do the conversion
-         *  - fahrenheit to celsius equation:
-         *  - celsius to fahrenheit equation:
+         *  - fahrenheit to celsius equation: (user's temperature - 32) x (5/9)
+         *  - celsius to fahrenheit equation: (user's temperature x 1.8) + 32
          * 4. Print out the converted temperature.
+         * 5. Ask user if they would like to do another conversion
+         *  - If yes, repeat step 1 - 4
+         *  - If no, exit
          */
     }
 }
